@@ -1,8 +1,9 @@
 SampleApp::Application.routes.draw do
-  get "foo_bars/baz"
-  get "foo_bars/quuz"
+  #get "foo_bars/baz" - I thought I deleted this.
+  #get "foo_bars/quuz" - This one too. . .
   get "static_pages/home"
   get "static_pages/help"
+  get "static_pages/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
