@@ -1,7 +1,7 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
   #get "foo_bars/baz" - I thought I deleted this.
   #get "foo_bars/quuz" - This one too. . .
+  resources :users
   root 'static_pages#home'
   match '/signup',  to: 'users#new',             via: 'get'
   match '/help',    to: 'static_pages#help',     via: 'get'
